@@ -1,0 +1,8 @@
+/* if javascript not enabled, show html fallback */
+.slate.html { display: inline-block; }
+.slate.svg { display: none; }
+.slate.svg svg { overflow: visible; }
+
+/* if javascript and svg enabled, show svg */
+html.svg .slate.html { display: none; }
+html.svg .slate.svg { display: inline-block; }

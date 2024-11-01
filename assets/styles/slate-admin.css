@@ -1,0 +1,6 @@
+#slate-dashboard-widget img { display: block; margin: 0 auto; }
+#slate-widget-tabs .ui-tabs-nav li { float: left; }
+#slate-widget-tabs .ui-tabs-nav li:after { content: '| ' }
+#slate-widget-tabs .ui-tabs-nav li:last-child:after { content: '' }
+#slate-widget-tabs .ui-widget-content a { color: #dd9933; text-decoration: underline; }
+#slate-widget-tabs hr { clear: both; }
